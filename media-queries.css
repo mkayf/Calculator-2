@@ -1,0 +1,32 @@
+/* media query for smartphones: */
+
+@media screen and (max-width: 468px){
+    .container .calculator{
+        width: 380px;
+        height: 90%;
+        
+    }
+    input{
+        width: 95%;
+        position: relative;
+        top: 50px;
+        font-size: 60px;
+    }
+    .display-div{
+        height: 150px;
+    }
+    span{
+        display: block;
+        font-size: 25px;
+    }
+    .btns{
+       width: 80px;
+       height: 80px;
+       margin-bottom: 20px; 
+       font-size: 40px;
+    }
+    .equal{
+        width: 173px;
+    }
+    
+}

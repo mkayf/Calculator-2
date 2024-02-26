@@ -1,0 +1,64 @@
+/* #1b434d */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(199, 251, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .calculator{
+    background-color: #3a4452;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 15px;
+} 
+span{
+    color: rgb(0, 234, 255);
+    display: none;
+}
+input{
+    margin: 5px;
+    margin-bottom: 25px;
+    height: 50px;
+    width: 275px;
+    border: none;
+    outline: none;
+    text-align: right;
+    background: transparent;
+    font-size: 50px;
+    color: white;
+    border-bottom: 2px solid rgb(199, 251, 234);
+}
+.btns{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #30353d;
+    color: white;
+    font-size: 25px;
+    box-shadow: -2px -2px 3px 0px rgb(199, 251, 234), 2px 2px 10px 4px black;
+    cursor: pointer;
+    transition: all;
+    ;
+}
+.btns:active{
+    transform: scale(1.1);
+}
+.equal{
+    width: 135px;
+}
+.equal,.AC, .DE, .percentage, .divide, .multiply, .plus, .minus{
+    color: rgb(0, 234, 255);
+}
